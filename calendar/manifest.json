@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  
+  "name": "Google Calendar Notifications",
+  "description": "",
+  "version": "0.1",
+  
+  "app": {
+    "urls": [
+      "*://*.google.com/calendar/"
+    ]
+  },
+  
+  "background": {
+    "page": "https://www.google.com/calendar"
+  },
+  
+  "permissions": [
+    "background"
+  ]
+}
