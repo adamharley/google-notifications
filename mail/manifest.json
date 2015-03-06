@@ -17,5 +17,10 @@
   
   "permissions": [
     "background"
-  ]
+  ],
+  
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
 }
